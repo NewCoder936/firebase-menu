@@ -29,10 +29,10 @@ import firebase from './FirebaseConfig'
  * i need to go to .github/workflows and then firebase/hosting/merge and add below the user the below 
  * run: npm install
  * run: npm run build
+ * and same for the firebase-hosting-pull-request
  */
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className='App'>
