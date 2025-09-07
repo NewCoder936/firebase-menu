@@ -17,6 +17,18 @@ import firebase from './FirebaseConfig'
  * then get the api keys and others
  * create .env file and set it as the one done in this project
  * get the credentials from the firebase, put it in .env file, and rename the keys as done here
+ * 
+ * we can set the automatic deployment through firebase hosting whenever i am pushing to main to github 
+ * i need to go to terminal, run firebase init
+ * i need to choose hosting 
+ * i need to say yes for auto deployment 
+ * i need to set no for auto workflow 
+ * i need to choose main as the branch for auto deployment 
+ * and then i click enter 
+ * 
+ * i need to go to .github/workflows and then firebase/hosting/merge and add below the user the below 
+ * run: npm install
+ * run: npm run build
  */
 
 function App() {
